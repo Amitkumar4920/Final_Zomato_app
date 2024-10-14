@@ -1,0 +1,121 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+}
+
+.navbar {
+  background-color: #FF312E;
+  padding: 10px;
+  color: #000103;
+  text-align: center;
+  font-size: large;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+
+.navbar ul li a {
+  border: 4px solid #FF312E;
+  text-decoration: none;
+  font-size:larger
+}
+
+.navbar h1 {
+  margin-left: 15px;
+}
+
+
+.customer-list, .add-customer, .edit-customer {
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+button {
+  margin: 5px;
+  padding: 5px 10px;
+  background-color: #72BF78;
+  color: yellow;
+  border: none;
+  cursor: pointer;
+  border-radius: 50px;
+  padding: 10px 20px;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
+
+.add-customer-button {
+  background-color: #2196F3;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 50px;
+  padding: 10px 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.add-customer-button:hover {
+  background-color: #1976d2;
+}
+
+.delete-button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 50px;
+  padding: 10px 20px;
+}
+
+.delete-button:hover {
+  background-color: #e91e63;
+}
+
+.edit-button {
+  background-color: #03A9F4;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 50px;
+  padding: 10px 20px;
+}
+
+.edit-button:hover {
+  background-color: #0288d1;
+}
